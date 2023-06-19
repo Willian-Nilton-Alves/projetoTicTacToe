@@ -1,0 +1,44 @@
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+    display: block;
+    margin: 0 auto;
+    max-width: 30rem;
+    padding: 0 1.5rem 2.5rem;
+    position: relative;
+  
+}
+
+#gameBoard {
+  margin: 0 auto;
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-rows: 6rem 6rem 6rem;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+  max-width: 19rem;
+}
+
+#gameBoard span {
+  background-color: #c9c9c9;
+  display: grid;
+  place-content: center;
+  font-size: 5rem;
+}
+
+#gameBoard span.win {
+  background-color: #25a340;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
